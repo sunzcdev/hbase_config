@@ -32,7 +32,6 @@ export HBASE_CLASSPATH=/home/hduser/hadoop-2.9.2/etc/hadoop
 export HBASE_PID_DIR=/root/hbase/pids
 export HBASE_MANAGES_ZK=false
 # Extra Java CLASSPATH elements.  Optional.
-export HBASE_CLASSPATH=
 
 # The maximum amount of heap to use. Default is left to JVM default.
 # export HBASE_HEAPSIZE=1G
