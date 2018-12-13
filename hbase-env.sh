@@ -25,10 +25,14 @@
 # into the startup scripts (bin/hbase, etc.)
 
 # The java implementation to use.  Java 1.8+ required.
-# export JAVA_HOME=/usr/java/jdk1.8.0/
-
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+export HADOOP_HOME=/home/hduser/hadoop-2.9.2/
+export HBASE_HOME=/home/hduser/hbase-2.1.1/
+export HBASE_CLASSPATH=/home/hduser/hadoop-2.9.2/etc/hadoop
+export HBASE_PID_DIR=/root/hbase/pids
+export HBASE_MANAGES_ZK=false
 # Extra Java CLASSPATH elements.  Optional.
-# export HBASE_CLASSPATH=
+export HBASE_CLASSPATH=
 
 # The maximum amount of heap to use. Default is left to JVM default.
 # export HBASE_HEAPSIZE=1G
